@@ -13,6 +13,8 @@ import BookBus from './components/BookBus/BookBus';
 import BookTrain from './components/BookTrain/BookTrain';
 import BookFlight from './components/BookFlight/BookFlight';
 import BookCab from './components/BookCab/BookCab';
+import Place from './components/Place/Place';
+import PlaceDetails from './components/PlaceDetails/PlaceDetails';
 
 function App() {
   let router=createBrowserRouter([
@@ -65,6 +67,13 @@ function App() {
             {
               path:'bookcab',
               element:<BookCab/>
+            },
+            {
+              path:"place",
+              element:<Place/>
+            },{
+              path:'placedetails',
+              element:<PlaceDetails/>
             }
           ]
         }

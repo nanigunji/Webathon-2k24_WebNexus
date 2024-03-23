@@ -19,7 +19,7 @@ function SignUp() {
   }
 
   return (
-    <div className='bg-danger p-5 border rounded border-white'>
+    <div className=' p-5 border rounded border-white'>
       <h2 className='text-white fs-1'>Create Your Account </h2>
     <div className='container '>
       <div className="row justify-content-center mt-5">
