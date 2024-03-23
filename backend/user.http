@@ -1,0 +1,41 @@
+//registration
+POST http://localhost:4000/user-api/user
+Content-Type: application/json
+
+{
+    "username":"bharath",
+    "email":"bharath@gmail.com",
+    "password":"123"
+}
+###
+POST http://localhost:4000/user-api/login
+Content-Type: application/json
+
+{
+    "username":"bharath",
+    "password":"123"
+}
+
+###
+http://localhost:4000/user-api/user/personal
+Content-Type: application/json
+
+{
+    "dob":"21/09/2023",
+}
+
+### booktrip
+POST http://localhost:4000/user-api/booktrip
+Content-Type: application/json
+
+{
+  "username": "test1",
+  "budget": "33",
+  "enddate": "2024-03-14",
+  "from": "hyderabad",
+  "passengerCount": "3",
+  "startdate": "2024-02-29",
+  "to": "vizag",
+  "travelClass": "AC"
+}
+

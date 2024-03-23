@@ -1,0 +1,43 @@
+.row1{
+    background-color: rgb(230, 239, 234);
+    width:80%;
+    padding: 40px;
+    margin: auto;
+  
+  }
+  .slider {
+    position: relative;
+    width: 80%;
+    margin: 0 auto; 
+  }
+  
+  .slider img {
+    width: 1000px;
+    height: 600px; 
+    border-radius: 20px;
+  }
+  
+  .buttonslider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  } 
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:first-of-type {
+    left: 0;
+  }
+  
+  button:last-of-type {
+    right: 0;
+  }
+  
